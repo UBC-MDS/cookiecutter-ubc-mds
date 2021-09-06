@@ -1,6 +1,7 @@
 import os
+import shutil
 os.chdir("..")
-os.rmdir("bar")
+shutil.rmtree("bar")
 
 print(
     "This cookiecutter has moved. Please use:\n\n"
